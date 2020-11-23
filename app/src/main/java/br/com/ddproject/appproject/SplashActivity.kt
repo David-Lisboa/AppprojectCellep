@@ -7,6 +7,7 @@ import android.os.Handler
 import android.os.Looper
 import br.com.DDProject.appproject.R
 
+
 class SplashActivity : AppCompatActivity() {
     /* É um dos métodos presente no ciclo de vida da Activity */
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,10 +16,8 @@ class SplashActivity : AppCompatActivity() {
 
         //Abrir a LoginActivity após 3 segundos
         Handler(Looper.getMainLooper()).postDelayed({
-
             //Iniciando um Itent(Intenção de trocar de tela)
-//            val mIntent = Intent(this, LoginActivity::class.java)
-          val mIntent = Intent(this, CadastroActivity::class.java)
+            val mIntent = Intent(this, LoginActivity::class.java)
             startActivity(mIntent)
             finish()
         }, 1000)

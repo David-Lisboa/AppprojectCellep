@@ -15,21 +15,5 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val botaoEntrar = buttonEntrar as Button
-
-        botaoEntrar.setOnClickListener {
-            val email = editTextTextEmailAddress.text.toString()
-            val senha = editTextTextPassword.text.toString()
-
-            val logar = logar(email, senha)
-            Resultado.text = logar
-        }
     }
-
-    private fun logar(usuario: String, senha: String): String {
-        return if (usuario == "dlrlisboa@gmail.com" && senha == "123") {
-            "Logado com sucesso"
-        } else "E-mail ou senha Invalido"
-    }
-
 }
