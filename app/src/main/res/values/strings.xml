@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">App project</string>
+    <string name="ola_mundo">Ola Mundo!</string>
+    <string name="button">Button</string>
+    <string name="logo_de_fundo">logo de fundo</string>
+    <string name="logo_da_empresa">logo da empresa</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="senha">Senha</string>
+    <string name="email">Email</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="nome">Nome</string>
+    <string name="todo">TODO</string>
+</resources>
